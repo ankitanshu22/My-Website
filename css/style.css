@@ -224,6 +224,19 @@ nav {
   grid-row: 5/6;
 }
 
+.item-2 img {
+  border-radius: 150px;
+  border-color: white;
+  border-width: 10px;
+  filter: drop-shadow(0px 0px 10px #141414);
+  position: relative;
+  top: -2vh;
+}
+
+.item-3 {
+  margin-left: 2vw;
+}
+
 .text1-1 {
   margin-top: 2vh;
   font-size: 1.6rem;
@@ -235,7 +248,7 @@ nav {
 }
 
 .text1-2 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -449,6 +462,16 @@ nav {
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
   margin-top: 7vh;
+}
+
+.item-3-4 img,
+.item-3-5 img {
+  width: 10vw;
+}
+
+.item-3-4 img:hover,
+.item-3-5 img:hover {
+  filter: brightness(300%);
 }
 
 .heading-4 {
