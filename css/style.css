@@ -12,69 +12,40 @@ p {
   margin: 0;
 }
 
-.introduction {
+.introduction,
+.skills,
+.about,
+.contact {
   height: 100%;
-  background-image: url(../img/bg1.png);
   background-repeat: no-repeat;
-  background-position-y: -100px;
-  background-position-x: 50px;
-  background-size: 1520px auto;
+  background-position-y: 11%;
+  background-position-x: 2.2rem;
+  background-size: 100% auto;
 }
 
-.skills {
-  height: 100%;
+.introduction {
+  background-image: url(../img/bg1.png);
+}
+
+.skills,
+.contact {
   background-color: #272727;
   box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
-  background-image: url(../img/bg1.png);
-  background-repeat: no-repeat;
-  background-position-y: -100px;
-  background-position-x: 50px;
-  background-size: 1520px auto;
+  background-image: url(../img/bg2.png);
 }
 
 .about {
-  height: 100%;
-  background-image: url(../img/bg1.png);
-  background-repeat: no-repeat;
-  background-position-y: -100px;
-  background-position-x: 50px;
-  background-size: 1520px auto;
+  background-image: url(../img/bg2.png);
 }
 
-.contact {
-  height: 100%;
-  background-color: #272727;
-  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
-  background-image: url(../img/bg1.png);
-  background-repeat: no-repeat;
-  background-position-y: -100px;
-  background-position-x: 50px;
-  background-size: 1520px auto;
-}
-
-.introduction-container {
-  height: 100%;
-  width: 70%;
-  margin: auto;
-  padding: 0;
-}
-
-.skills-container {
-  height: 100%;
-  width: 70%;
-  margin: auto;
-}
-
-.about-container {
-  height: 100%;
-  width: 70%;
-  margin: auto;
-}
-
+.introduction-container,
+.skills-container,
+.about-container,
 .contact-container {
   height: 100%;
   width: 70%;
   margin: auto;
+  padding: 0;
 }
 
 nav {
@@ -82,17 +53,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 8vh;
-}
-
-.logo {
-  color: white;
+  min-height: 8%;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 30vw;
 }
 
 .nav-links li {
@@ -112,6 +79,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(10, 1fr);
+  grid-gap: 20px;
 }
 
 .item-1 {
@@ -249,7 +217,7 @@ nav {
 }
 
 .text1-1 {
-  margin-top: 17px;
+  margin-top: 2vh;
   font-size: 1.6rem;
   font-family: Poppins;
   font-style: normal;
@@ -285,13 +253,18 @@ nav {
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.ext-links li {
+.ext-links {
   list-style: none;
-  padding-bottom: 2vh;
-  padding-left: 12vh;
-  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 12vw;
   margin: 0;
   border: 0;
+}
+
+.ext-links li {
+  padding-bottom: 1vh;
 }
 
 .text2-1 {
@@ -301,7 +274,7 @@ nav {
   font-weight: bold;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  margin: 70px 0 15px 0;
+  margin-top: 7vh;
   text-align: right;
 }
 
@@ -325,7 +298,7 @@ nav {
 }
 
 .item-2-1 {
-  margin: auto;
+  margin: 8vh auto 8vh auto;
 }
 
 .heading-2 {
@@ -335,51 +308,45 @@ nav {
   font-weight: bold;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  margin-top: 40px;
 }
 
-.design-tools {
+.design-tools,
+.develop-tools {
   list-style: none;
   text-align: center;
   padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.design-tools li {
-  padding-bottom: 45px;
+.design-tools img,
+.develop-tools img {
+  width: 2.5vw;
+  min-width: 25px;
+}
+
+.design-tools li,
+.develop-tools li {
+  padding-bottom: 6vh;
 }
 
 .item-2-3,
 .item-2-4 {
   text-align: center;
-  position: relative;
 }
 
-.design-v {
-  position: absolute;
-  top: 75px;
-  left: 75px;
-}
-
+.design-v,
 .develop-v {
-  position: absolute;
-  top: 65px;
-  left: 75px;
-}
-
-.develop-tools {
-  list-style: none;
+  width: 20vw;
+  vertical-align: middle;
   text-align: center;
-  padding-left: 0;
-}
-
-.develop-tools li {
-  padding-bottom: 45px;
 }
 
 .design-heading,
 .develop-heading {
-  padding-top: 50px;
-  font-size: 20px;
+  padding-top: 8vh;
+  font-size: 1.5vw;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -391,7 +358,7 @@ nav {
 
 .design-text,
 .develop-text {
-  font-size: 16px;
+  font-size: 1vw;
   font-family: Poppins;
   font-style: normal;
   font-weight: 200;
@@ -404,17 +371,17 @@ nav {
 .vertical-bar-1 {
   float: left;
   background-color: #ffc25c;
-  height: 170px;
+  height: 22.3vh;
   width: 5px;
-  margin-right: 15px;
+  margin-right: 2vw;
 }
 
 .vertical-bar-2 {
   float: left;
   background-color: #ffc25c;
-  height: 90px;
+  height: 5.7vw;
   width: 5px;
-  margin-right: 15px;
+  margin-right: 2vw;
 }
 
 .about-heading {
@@ -424,7 +391,7 @@ nav {
   font-weight: 500;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  padding-bottom: 20px;
+  padding-bottom: 2vh;
 }
 
 .organization {
@@ -434,7 +401,7 @@ nav {
   font-weight: 500;
   color: #ffffff;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  padding-bottom: 10px;
+  padding-bottom: 1vh;
 }
 
 .profile,
@@ -448,7 +415,13 @@ nav {
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
 }
 .duration {
-  padding-bottom: 10px;
+  padding-bottom: 1vh;
+  padding-top: 0.1vh;
+  font-size: 1.05vw;
+}
+
+.description{
+  font-size: 1.05vw;
 }
 
 .heading-3 {
@@ -458,7 +431,7 @@ nav {
   font-weight: bold;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  margin-top: 55px;
+  margin-top: 7vh;
 }
 
 .heading-4 {
@@ -468,7 +441,7 @@ nav {
   font-weight: bold;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  margin-top: 40px;
+  margin-top: 7vh;
 }
 
 .form-label {
@@ -481,8 +454,8 @@ nav {
 }
 
 #name {
-  height: 40px;
-  width: 470px;
+  height: 6vh;
+  width: 31vw;
   border-radius: 20px;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -490,8 +463,8 @@ nav {
 }
 
 #message {
-  height: 100px;
-  width: 470px;
+  height: 14vh;
+  width: 31vw;
   border-radius: 20px;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -509,26 +482,34 @@ input {
   border: 0;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
 .submit-button {
   background-color: #3b3b3b;
   border-radius: 20px;
-  margin-left: 300px;
+  margin-left: 21vw;
   cursor: pointer;
   color: #ffffff;
   font-size: 17px;
-  height: 40px;
-  width: 200px;
+  height: 6vh;
+  width: 12vw;
   text-decoration: none;
 }
 .submit-button:hover {
-  background-color: #414141;
+  background-color: #5c5c5c;
 }
 .submit-button:active {
   position: relative;
   top: 1px;
 }
 .form {
-  margin-top: 50px;
+  margin-top: 5vh;
+  height: 100%;
 }
 
 .call,
@@ -553,18 +534,17 @@ input {
 }
 
 .contact-info {
-  font-size: 18px;
+  font-size: 1.2vw;
   font-family: Poppins;
   color: #ffc25c;
   margin-left: 10px;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.alogo {
-  border-radius: 100px;
-}
-
 ::placeholder {
   font-weight: 100;
   color: #525252;
+}
+
+@media (max-width: 700px) {
 }
