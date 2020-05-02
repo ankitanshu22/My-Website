@@ -66,6 +66,10 @@ nav {
   width: 30vw;
 }
 
+.alogo{
+  width: 3vw;
+}
+
 .nav-links li {
   list-style: none;
 }
