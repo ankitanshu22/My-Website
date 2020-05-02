@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   margin: 0;
@@ -72,6 +76,10 @@ nav {
   font-weight: bold;
   font-size: 1.3rem;
   color: #606060;
+}
+
+.nav-links a:hover {
+  filter: drop-shadow(0px 0px 1px #666666) brightness(250%);
 }
 
 .grid-container-1 {
@@ -267,6 +275,10 @@ nav {
   padding-bottom: 1vh;
 }
 
+.ext-links li img:hover {
+  filter: drop-shadow(0px 0px 1px #666666) brightness(250%);
+}
+
 .text2-1 {
   font-size: 24px;
   font-family: Poppins;
@@ -326,6 +338,11 @@ nav {
   min-width: 25px;
 }
 
+.design-tools img:hover,
+.develop-tools img:hover {
+  filter: brightness(250%);
+}
+
 .design-tools li,
 .develop-tools li {
   padding-bottom: 6vh;
@@ -346,13 +363,13 @@ nav {
 .design-heading,
 .develop-heading {
   padding-top: 8vh;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  margin-bottom: 1vh;
+  margin-bottom: 1.2vh;
   text-align: center;
 }
 
@@ -379,7 +396,7 @@ nav {
 .vertical-bar-2 {
   float: left;
   background-color: #ffc25c;
-  height: 5.7vw;
+  height: 12.5vh;
   width: 5px;
   margin-right: 2vw;
 }
@@ -420,7 +437,7 @@ nav {
   font-size: 1.05vw;
 }
 
-.description{
+.description {
   font-size: 1.05vw;
 }
 
@@ -533,6 +550,10 @@ button:focus {
   width: 30px;
 }
 
+.item-4-4 img:hover {
+  filter: drop-shadow(0px 0px 1px #666666) brightness(250%);
+}
+
 .contact-info {
   font-size: 1.2vw;
   font-family: Poppins;
@@ -544,6 +565,10 @@ button:focus {
 ::placeholder {
   font-weight: 100;
   color: #525252;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 700px) {
