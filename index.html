@@ -9,278 +9,378 @@
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="img/alogo.png">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/pageable@latest/dist/pageable.min.css"
+    />
+    <link rel="icon" href="img/alogo.png" />
   </head>
   <body>
-    <div class="introduction" id="introduction">
-      <div class="introduction-container">
-        <div class="grid-container-1">
-          <div class="item-1">
-            <nav>
-              <div class="logo">
-                <a href="#"><img class="alogo" src="img/alogo.png" alt="" /></a>
+    <div class="pg-wrapper">
+      <div id="container" class="pg-container">
+        <div
+          class="introduction pg-page pg-active"
+          data-anchor="page-1"
+          id="introduction page-1"
+        >
+          <div class="introduction-container">
+            <div class="grid-container-1">
+              <div class="item-1">
+                <nav>
+                  <div class="logo">
+                    <a href="#"
+                      ><img class="alogo" src="img/alogo.png" alt=""
+                    /></a>
+                  </div>
+                  <ul class="nav-links">
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                      <a href="#about">About</a>
+                    </li>
+                    <li>
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
-              <ul class="nav-links">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#skills">Skills</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="item-2">
-            <div class="photo">
-              <img src="img/photo.png" alt="" width="100%" />
+              <div class="item-2">
+                <div class="photo">
+                  <img src="img/photo.png" alt="" width="100%" />
+                </div>
+              </div>
+              <div class="item-3">
+                <p class="text1-1">
+                  Hi, I'm
+                </p>
+                <p class="text1-2">
+                  Ankitanshu Swaroop
+                </p>
+                <div class="bar1-1"></div>
+                <p class="text1-3" id="text-profile">
+                  A Web Designer.
+                </p>
+              </div>
+              <div class="item-4">
+                <ul class="ext-links">
+                  <li>
+                    <a href="mailto:ankitanshuswaroop@gmail.com"
+                      ><img src="img/mail.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/ankitanshuswaroop/"
+                      ><img src="img/linkedin.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ankitanshu22"
+                      ><img src="img/github.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://dribbble.com/ankitanshuswaroop"
+                      ><img src="img/dribbble.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item-5">
+                <p class="text2-1">Introduction</p>
+                <div class="bar1-2"></div>
+                <p class="text2-2">
+                  Hailing from New Delhi, I am <br />
+                  an undergraduate student who <br />
+                  loves to create and build things.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="item-3">
-            <p class="text1-1">
-              Hi, I'm
-            </p>
-            <p class="text1-2">
-              Ankitanshu Swaroop
-            </p>
-            <div class="bar1-1"></div>
-            <p class="text1-3" id="text-profile">
-              A Web Designer.
-            </p>
+        </div>
+
+        <div class="skills pg-page" data-anchor="page-2" id="skills page-2">
+          <div class="skills-container">
+            <div class="grid-container-2">
+              <div class="item-2-1">
+                <div>
+                  <p class="heading-2">What Can I Do?</p>
+                  <div class="bar1-1"></div>
+                </div>
+                <ul class="nav-links">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item-2-2">
+                <ul class="design-tools">
+                  <li>
+                    <a href=""
+                      ><img src="img/figma.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/adobe_xd.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/adobe_photoshop.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/adobe_illustrator.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/balsamiq.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item-2-3">
+                <img class="design-v" src="img/design.png" alt="" />
+              </div>
+              <div class="item-divider">
+                <img src="img/divider.png" alt="" height="500px" />
+              </div>
+              <div class="item-2-4">
+                <img class="develop-v" src="img/develop.png" alt="" />
+              </div>
+              <div class="item-2-5">
+                <ul class="develop-tools">
+                  <li>
+                    <a href=""
+                      ><img src="img/html_5.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/css3.png" alt="" width="45px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/javascript.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/nodejs.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/react_native.png" alt="" width="40px"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item-2-6">
+                <p class="design-heading">Design what you want.</p>
+                <p class="design-text">
+                  I can design visually-appealing websites to run on various
+                  platforms and optimize the user experience.
+                </p>
+              </div>
+              <div class="item-2-7">
+                <p class="develop-heading">Develop what you need.</p>
+                <p class="develop-text">
+                  I can create your website to run across devices using the
+                  latest technologies available.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="item-4">
-            <ul class="ext-links">
-              <li>
-                <a href="mailto:ankitanshuswaroop@gmail.com"
-                  ><img src="img/mail.png" alt="" width="40px"
-                /></a>
-              </li>
-              <li>
+        </div>
+        <div class="about pg-page" data-anchor="page-3" id="about page-3">
+          <div class="about-container">
+            <div class="grid-container-3">
+              <div class="item-3-1">
+                <div>
+                  <p class="heading-3">About Me</p>
+                  <div class="bar1-1"></div>
+                </div>
+                <ul class="nav-links">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item-3-2">
+                <p class="about-heading">Experience</p>
+                <div class="experience-container">
+                  <div class="vertical-bar-1"></div>
+
+                  <p class="organization">Tripupp HR</p>
+                  <p class="profile">Product Design Intern</p>
+                  <p class="duration">April 2020 - Present</p>
+                  <p class="description">
+                    Involved in conducting user research, designing user
+                    workflows, documenting user stories, creating user personas,
+                    building wireframes, designing user interface and testing
+                    functional mock-ups with users.
+                  </p>
+                </div>
+              </div>
+              <div class="item-3-3">
+                <p class="about-heading">Education</p>
+                <div class="education-container">
+                  <div class="vertical-bar-2"></div>
+                  <p class="organization">
+                    Birla Institute of Technology, Mesra
+                  </p>
+                  <p class="profile">
+                    Bachelor of Engineering, Computer Science and Engineering
+                  </p>
+                  <p class="duration">2017 - 2021</p>
+                </div>
+              </div>
+              <div class="item-3-4">
+                <img src="img/monitor 1.png" alt="" />
+              </div>
+              <div class="item-3-5">
+                <img src="img/school 1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact pg-page" data-anchor="page-4" id="contact page-4">
+          <div class="contact-container">
+            <div class="grid-container-4">
+              <div class="item-4-1">
+                <div>
+                  <p class="heading-4">Contact Me</p>
+                  <div class="bar1-1"></div>
+                </div>
+                <ul class="nav-links">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item-4-2">
+                <div class="form">
+                  <form action="#">
+                    <label class="form-label" for="name">Name</label><br />
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="What's Your Name?"
+                    /><br />
+                    <label class="form-label" for="message">Message</label
+                    ><br />
+                    <input
+                      type="text"
+                      id="message"
+                      name="message"
+                      placeholder="Write your Message..."
+                    /><br /><br />
+                    <input class="submit-button" type="submit" value="Submit" />
+                  </form>
+                </div>
+              </div>
+              <div class="item-4-3">
+                <div class="call">
+                  <img
+                    class="call-icon"
+                    src="img/call.png"
+                    alt=""
+                    width="30px"
+                  />
+                  <p class="contact-info">+91 83681 67864</p>
+                </div>
+                <div class="mail">
+                  <a href="tel:+918368167864"
+                    ><img
+                      class="mail-icon"
+                      src="img/mail.png"
+                      alt=""
+                      width="30px"
+                  /></a>
+                  <a href="mailto:ankitanshuswaroop@gmail.com"
+                    ><p class="contact-info">ankitanshuswaroop@gmail.com</p></a
+                  >
+                </div>
+              </div>
+              <div class="item-4-4">
                 <a href="https://www.linkedin.com/in/ankitanshuswaroop/"
-                  ><img src="img/linkedin.png" alt="" width="40px"
+                  ><img src="img/linkedin.png" alt=""
                 /></a>
-              </li>
-              <li>
+                <a href="https://www.facebook.com/ankitanshuswaroop"
+                  ><img src="img/facebook.png" alt=""
+                /></a>
                 <a href="https://github.com/ankitanshu22"
-                  ><img src="img/github.png" alt="" width="40px"
+                  ><img src="img/github.png" alt=""
                 /></a>
-              </li>
-              <li>
                 <a href="https://dribbble.com/ankitanshuswaroop"
-                  ><img src="img/dribbble.png" alt="" width="40px"
+                  ><img src="img/dribbble.png" alt=""
                 /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="item-5">
-            <p class="text2-1">Introduction</p>
-            <div class="bar1-2"></div>
-            <p class="text2-2">
-              Hailing from New Delhi, I am <br />
-              an undergraduate student who <br />
-              loves to create and build things.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skills" id="skills">
-      <div class="skills-container">
-        <div class="grid-container-2">
-          <div class="item-2-1">
-            <p class="heading-2">What Can I Do?</p>
-            <div class="bar1-1"></div>
-          </div>
-          <div class="item-2-2">
-            <ul class="design-tools">
-              <li>
-                <a href=""><img src="img/figma.png" alt="" width="40px" /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/adobe_xd.png" alt="" width="40px"
+                <a href="https://www.instagram.com/ankitanshuswaroop"
+                  ><img src="img/instagram.png" alt=""
                 /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/adobe_photoshop.png" alt="" width="40px"
+                <a href="https://www.quora.com/profile/Ankitanshu-Swaroop-1"
+                  ><img src="img/quora.png" alt=""
                 /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/adobe_illustrator.png" alt="" width="40px"
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/balsamiq.png" alt="" width="40px"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="item-2-3">
-            <img class="design-v" src="img/design.png" alt="" />
-          </div>
-          <div class="item-divider">
-            <img src="img/divider.png" alt="" height="500px" />
-          </div>
-          <div class="item-2-4">
-            <img class="develop-v" src="img/develop.png" alt="" />
-          </div>
-          <div class="item-2-5">
-            <ul class="develop-tools">
-              <li>
-                <a href=""><img src="img/html_5.png" alt="" width="40px" /></a>
-              </li>
-              <li>
-                <a href=""><img src="img/css3.png" alt="" width="45px" /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/javascript.png" alt="" width="40px"
-                /></a>
-              </li>
-              <li>
-                <a href=""><img src="img/nodejs.png" alt="" width="40px" /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/react_native.png" alt="" width="40px"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="item-2-6">
-            <p class="design-heading">Design what you want.</p>
-            <p class="design-text">
-              I can design visually-appealing websites to run on various
-              platforms and optimize the user experience.
-            </p>
-          </div>
-          <div class="item-2-7">
-            <p class="develop-heading">Develop what you need.</p>
-            <p class="develop-text">
-              I can create your website to run across devices using the latest
-              technologies available.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="about" id="about">
-      <div class="about-container">
-        <div class="grid-container-3">
-          <div class="item-3-1">
-            <p class="heading-3">About Me</p>
-            <div class="bar1-1"></div>
-          </div>
-          <div class="item-3-2">
-            <p class="about-heading">Experience</p>
-            <div class="experience-container">
-              <div class="vertical-bar-1"></div>
-
-              <p class="organization">Tripupp HR</p>
-              <p class="profile">Product Design Intern</p>
-              <p class="duration">April 2020 - Present</p>
-              <p class="description">
-                Involved in conducting user research, designing user workflows,
-                documenting user stories, creating user personas, building
-                wireframes, designing user interface and testing functional
-                mock-ups with users.
-              </p>
+              </div>
             </div>
-          </div>
-          <div class="item-3-3">
-            <p class="about-heading">Education</p>
-            <div class="education-container">
-              <div class="vertical-bar-2"></div>
-              <p class="organization">Birla Institute of Technology, Mesra</p>
-              <p class="profile">
-                Bachelor of Engineering, Computer Science and Engineering
-              </p>
-              <p class="duration">2017 - 2021</p>
-            </div>
-          </div>
-          <div class="item-3-4">
-            <img src="img/monitor 1.png" alt="" />
-          </div>
-          <div class="item-3-5">
-            <img src="img/school 1.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="contact" id="contact">
-      <div class="contact-container">
-        <div class="grid-container-4">
-          <div class="item-4-1">
-            <p class="heading-4">Contact Me</p>
-            <div class="bar1-1"></div>
-          </div>
-          <div class="item-4-2">
-            <div class="form">
-              <form action="#">
-                <label class="form-label" for="name">Name</label><br />
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="What's Your Name?"
-                /><br />
-                <label class="form-label" for="message">Message</label><br />
-                <input
-                  type="text"
-                  id="message"
-                  name="message"
-                  placeholder="Write your Message..."
-                /><br /><br />
-                <input class="submit-button" type="submit" value="Submit" />
-              </form>
-            </div>
-          </div>
-          <div class="item-4-3">
-            <div class="call">
-              <img class="call-icon" src="img/call.png" alt="" width="30px" />
-              <p class="contact-info">+91 83681 67864</p>
-            </div>
-            <div class="mail">
-              <a href="tel:+918368167864"
-                ><img class="mail-icon" src="img/mail.png" alt="" width="30px"
-              /></a>
-              <a href="mailto:ankitanshuswaroop@gmail.com"
-                ><p class="contact-info">ankitanshuswaroop@gmail.com</p></a
-              >
-            </div>
-          </div>
-          <div class="item-4-4">
-            <a href="https://www.linkedin.com/in/ankitanshuswaroop/"
-              ><img src="img/linkedin.png" alt=""
-            /></a>
-            <a href="https://www.facebook.com/ankitanshuswaroop"
-              ><img src="img/facebook.png" alt=""
-            /></a>
-            <a href="https://github.com/ankitanshu22"
-              ><img src="img/github.png" alt=""
-            /></a>
-            <a href="https://dribbble.com/ankitanshuswaroop"
-              ><img src="img/dribbble.png" alt=""
-            /></a>
-            <a href="https://www.instagram.com/ankitanshuswaroop"
-              ><img src="img/instagram.png" alt=""
-            /></a>
-            <a href="https://www.quora.com/profile/Ankitanshu-Swaroop-1"
-              ><img src="img/quora.png" alt=""
-            /></a>
           </div>
         </div>
       </div>
     </div>
   </body>
   <script src="js/index.js"></script>
+  <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
+  <script>
+    new Pageable("#container", {
+          childSelector: "[data-anchor]", // CSS3 selector string for the pages
+        anchors: ["page-1", "page-2", "page-3", "page-4"], // define the page anchors
+          pips: false, // display the pips
+          animation: 600, // the duration in ms of the scroll animation
+          throttle: 100, // the interval in ms that the resize callback is fired
+          orientation: "vertical", // or horizontal
+          swipeThreshold: 80, // swipe / mouse drag distance (px) before firing the page change event
+          events: {
+            wheel: true, // enable / disable mousewheel scrolling
+            mouse: true, // enable / disable mouse drag scrolling
+            touch: true, // enable / disable touch / swipe scrolling
+            keydown: true, // enable / disable keyboard navigation
+          },
+        });
+  </script>
 </html>

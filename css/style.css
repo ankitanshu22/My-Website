@@ -6,7 +6,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
   background-color: #1a1a1a;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -20,7 +20,7 @@ p {
 .skills,
 .about,
 .contact {
-  height: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position-y: 11%;
   background-position-x: 2.2rem;
@@ -53,7 +53,7 @@ p {
 }
 
 nav {
-  margin-top: 30px;
+  margin-top: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,7 +66,7 @@ nav {
   width: 30vw;
 }
 
-.alogo{
+.alogo {
   width: 3vw;
 }
 
@@ -176,6 +176,9 @@ nav {
 .item-3-1 {
   grid-column: 1/10;
   grid-row: 1/3;
+  margin: 7vh 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .item-3-2 {
@@ -211,6 +214,9 @@ nav {
 .item-4-1 {
   grid-column: 1/10;
   grid-row: 1/2;
+  display: flex;
+  justify-content: space-between;
+  margin: 7vh 0;
 }
 
 .item-4-2 {
@@ -229,10 +235,10 @@ nav {
 }
 
 .item-2 img {
-  border-radius: 150px;
+  border-radius: 500px;
   border-color: white;
   border-width: 10px;
-  filter: drop-shadow(0px 0px 10px #141414);
+  filter: drop-shadow(0px 5px 10px #141414);
   position: relative;
   top: -2vh;
 }
@@ -327,7 +333,9 @@ nav {
 }
 
 .item-2-1 {
-  margin: 8vh auto 8vh auto;
+  margin: 7vh 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .heading-2 {
@@ -465,7 +473,6 @@ nav {
   font-weight: bold;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  margin-top: 7vh;
 }
 
 .item-3-4 img,
@@ -485,7 +492,6 @@ nav {
   font-weight: bold;
   color: #ffc25c;
   text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-  margin-top: 7vh;
 }
 
 .form-label {
@@ -552,7 +558,6 @@ button:focus {
   top: 1px;
 }
 .form {
-  margin-top: 5vh;
   height: 100%;
 }
 
@@ -596,6 +601,10 @@ button:focus {
 
 a {
   text-decoration: none;
+}
+
+span{
+  background: white !important;
 }
 
 @media (max-width: 700px) {
