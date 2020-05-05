@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
-      href="https://unpkg.com/pageable@latest/dist/pageable.min.css"
-    />
+      href="https://unpkg.com/pageable@latest/dist/pageable.min.css">
+    <link rel="stylesheet" href="css/card.css" />
+
     <link rel="icon" href="img/alogo.png" />
   </head>
   <body>
@@ -34,25 +35,39 @@
                   </div>
                   <ul class="nav-links">
                     <li>
-                      <a href="#">Home</a>
+                      <a href="#page-1" class="active-link">Home</a>
                     </li>
                     <li>
-                      <a href="#skills">Skills</a>
+                      <a href="#page-2">Skills</a>
                     </li>
                     <li>
-                      <a href="#about">About</a>
+                      <a href="#page-3">About</a>
                     </li>
                     <li>
-                      <a href="#contact">Contact</a>
+                      <a href="#page-4">My Works</a>
+                    </li>
+                    <li>
+                      <a href="#page-5">Contact</a>
                     </li>
                   </ul>
+                  <div class="burger">
+                    <img src="img/burger.png" alt="">
+                  </div>
                 </nav>
               </div>
               <div class="item-2">
-                <div class="photo">
-                  <img src="img/photo.png" alt="" width="100%" />
-                </div>
+                <img class="vec" src="img/vec1.svg" alt="" />
+
+                <a href="docs/Ankitanshu's Resume (4).pdf" download
+                  ><button>
+                    <div class="cv-button">
+                      <p>My Resume</p>
+                      <img src="img/download_cv.png" alt="" width="15px">
+                    </div>
+                  </button>
+                </a>
               </div>
+
               <div class="item-3">
                 <p class="text1-1">
                   Hi, I'm
@@ -69,22 +84,22 @@
                 <ul class="ext-links">
                   <li>
                     <a href="mailto:ankitanshuswaroop@gmail.com"
-                      ><img src="img/mail.png" alt="" width="40px"
+                      ><img src="img/mail.png" alt=""
                     /></a>
                   </li>
                   <li>
                     <a href="https://www.linkedin.com/in/ankitanshuswaroop/"
-                      ><img src="img/linkedin.png" alt="" width="40px"
+                      ><img src="img/linkedin.png" alt=""
                     /></a>
                   </li>
                   <li>
                     <a href="https://github.com/ankitanshu22"
-                      ><img src="img/github.png" alt="" width="40px"
+                      ><img src="img/github.png" alt=""
                     /></a>
                   </li>
                   <li>
                     <a href="https://dribbble.com/ankitanshuswaroop"
-                      ><img src="img/dribbble.png" alt="" width="40px"
+                      ><img src="img/dribbble.png" alt="" 
                     /></a>
                   </li>
                 </ul>
@@ -93,9 +108,12 @@
                 <p class="text2-1">Introduction</p>
                 <div class="bar1-2"></div>
                 <p class="text2-2">
-                  Hailing from New Delhi, I am <br />
-                  an undergraduate student who <br />
-                  loves to create and build things.
+                  Hailing from New Delhi, I am an undergraduate<br />
+                  student who loves to create and build things.<br />
+                  
+                  <p class="text2-2-1">
+                  I am looking for opportunities to work and improve
+                  myself.</p>
                 </p>
               </div>
             </div>
@@ -112,45 +130,68 @@
                 </div>
                 <ul class="nav-links">
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#page-1">Home</a>
                   </li>
                   <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#page-3">About</a>
                   </li>
                   <li>
-                    <a href="#about">About</a>
+                    <a href="#page-4">My Works</a>
                   </li>
                   <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#page-5">Contact</a>
+                  </li>
+                  <li>
+                    <a href="docs/Ankitanshu's Resume (4).pdf" download
+                      >Resume</a
+                    >
                   </li>
                 </ul>
+                <div class="burger-2">
+                  <img src="img/burger.png" alt="">
+                </div>
               </div>
               <div class="item-2-2">
                 <ul class="design-tools">
                   <li>
-                    <a href=""
-                      ><img src="img/figma.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills">
+                      <img src="img/figma.png" alt=""  />
+                      <span class="tooltiptext">Figma</span>
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/adobe_xd.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills">
+                      <img src="img/adobe_xd.png" alt=""  /><span
+                        class="tooltiptext"
+                        >Adobe XD</span
+                      >
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/adobe_photoshop.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills">
+                      <img
+                        src="img/adobe_photoshop.png"
+                        alt=""
+                        
+                      /><span class="tooltiptext">Abode Photoshop</span>
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/adobe_illustrator.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills">
+                      <img
+                        src="img/adobe_illustrator.png"
+                        alt=""
+                        
+                      /><span class="tooltiptext">Adobe Illustrator</span>
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/balsamiq.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills">
+                      <img src="img/balsamiq.png" alt=""  /><span
+                        class="tooltiptext"
+                        >Balsamiq</span
+                      >
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -158,7 +199,7 @@
                 <img class="design-v" src="img/design.png" alt="" />
               </div>
               <div class="item-divider">
-                <img src="img/divider.png" alt="" height="500px" />
+                <img src="img/divider.png" alt="" />
               </div>
               <div class="item-2-4">
                 <img class="develop-v" src="img/develop.png" alt="" />
@@ -166,29 +207,45 @@
               <div class="item-2-5">
                 <ul class="develop-tools">
                   <li>
-                    <a href=""
-                      ><img src="img/html_5.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills-right">
+                      <img src="img/html_5.png" alt=""  /><span
+                        class="tooltiptext"
+                        >HTML 5</span
+                      >
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/css3.png" alt="" width="45px"
-                    /></a>
+                    <div class="tooltip-skills-right">
+                      <img src="img/css3.png" alt=""  /><span
+                        class="tooltiptext"
+                        >CSS 3</span
+                      >
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/javascript.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills-right">
+                      <img src="img/javascript.png" alt="" /><span
+                        class="tooltiptext"
+                        >JavaScript</span
+                      >
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/nodejs.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills-right">
+                      <img src="img/nodejs.png" alt="" /><span
+                        class="tooltiptext"
+                        >Node.js</span
+                      >
+                    </div>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="img/react_native.png" alt="" width="40px"
-                    /></a>
+                    <div class="tooltip-skills-right">
+                      <img
+                        src="img/react_native.png"
+                        alt=""
+
+                      /><span class="tooltiptext">React</span>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -209,6 +266,7 @@
             </div>
           </div>
         </div>
+
         <div class="about pg-page" data-anchor="page-3" id="about page-3">
           <div class="about-container">
             <div class="grid-container-3">
@@ -219,18 +277,26 @@
                 </div>
                 <ul class="nav-links">
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#page-1">Home</a>
                   </li>
                   <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#page-2">Skills</a>
                   </li>
                   <li>
-                    <a href="#about">About</a>
+                    <a href="#page-4">My Works</a>
                   </li>
                   <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#page-5">Contact</a>
+                  </li>
+                  <li>
+                    <a href="docs/Ankitanshu's Resume (4).pdf" download
+                      >Resume</a
+                    >
                   </li>
                 </ul>
+                <div class="burger-3">
+                  <img src="img/burger.png" alt="">
+                </div>
               </div>
               <div class="item-3-2">
                 <p class="about-heading">Experience</p>
@@ -270,7 +336,172 @@
             </div>
           </div>
         </div>
-        <div class="contact pg-page" data-anchor="page-4" id="contact page-4">
+
+        <div class="works pg-page" data-anchor="page-4" id="works page-4">
+          <div class="works-container">
+            <div class="grid-container-5">
+              <div class="item-5-1">
+                <div>
+                  <p class="heading-5">My Works</p>
+                  <div class="bar1-1"></div>
+                </div>
+                <ul class="nav-links">
+                  <li>
+                    <a href="#page-1">Home</a>
+                  </li>
+                  <li>
+                    <a href="#page-2">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#page-3">About</a>
+                  </li>
+                  <li>
+                    <a href="#page-5">Contact</a>
+                  </li>
+                  <li>
+                    <a href="docs/Ankitanshu's Resume (4).pdf" download
+                      >Resume</a
+                    >
+                  </li>
+                </ul>
+                <div class="burger-4">
+                  <img src="img/burger.png" alt="">
+                </div>
+              </div>
+              <div class="item-5-2">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img src="img/Screenshot (9).png" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title grey-text text-darken-4"
+                      >Portfolio Website</span
+                    >
+                    <div class="inline-wrap">
+                      <button>
+                        <div class="inline">
+                          <img src="img/live.png" alt="" width="15px" />
+                          <p><a href="#">Live Demo</a></p>
+                        </div>
+                      </button>
+                      <button>
+                        <div class="inline">
+                          <img src="img/code.png" alt="" width="15px" />
+                          <p><a href="#">View Code</a></p>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="tech-used">
+                      <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"
+                      >Portfolio Website<i class="more-icon right"
+                        ><img src="img/mail.png" alt="" /></i
+                    ></span>
+                    <p>
+                      Here is some more information about this product that is
+                      only revealed once clicked on.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item-5-3">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img src="img/Screenshot (9).png" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title grey-text text-darken-4"
+                      >Portfolio Website</span
+                    >
+                    <div class="inline-wrap">
+                      <button>
+                        <div class="inline">
+                          <img src="img/live.png" alt="" width="15px" />
+                          <p><a href="#">Live Demo</a></p>
+                        </div>
+                      </button>
+                      <button>
+                        <div class="inline">
+                          <img src="img/code.png" alt="" width="15px" />
+                          <p><a href="#">View Code</a></p>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="tech-used">
+                      <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"
+                      >Portfolio Website<i class="more-icon right"
+                        ><img src="img/mail.png" alt="" /></i
+                    ></span>
+                    <p>
+                      Here is some more information about this product that is
+                      only revealed once clicked on.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item-5-4">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img src="img/Screenshot (9).png" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title grey-text text-darken-4"
+                      >Portfolio Website</span
+                    >
+                    <div class="inline-wrap">
+                      <button>
+                        <div class="inline">
+                          <img src="img/live.png" alt="" width="15px" />
+                          <p><a href="#">Live Demo</a></p>
+                        </div>
+                      </button>
+                      <button>
+                        <div class="inline">
+                          <img src="img/code.png" alt="" width="15px" />
+                          <p><a href="#">View Code</a></p>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="tech-used">
+                      <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"
+                      >Portfolio Website<i class="more-icon right"
+                        ><img src="img/mail.png" alt="" /></i
+                    ></span>
+                    <p>
+                      Here is some more information about this product that is
+                      only revealed once clicked on.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact pg-page" data-anchor="page-5" id="contact page-5">
           <div class="contact-container">
             <div class="grid-container-4">
               <div class="item-4-1">
@@ -280,18 +511,26 @@
                 </div>
                 <ul class="nav-links">
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#page-1">Home</a>
                   </li>
                   <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#page-2">Skills</a>
                   </li>
                   <li>
-                    <a href="#about">About</a>
+                    <a href="#page-3">About</a>
                   </li>
                   <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#page-4">My Works</a>
+                  </li>
+                  <li>
+                    <a href="docs/Ankitanshu's Resume (4).pdf" download
+                      >Resume</a
+                    >
                   </li>
                 </ul>
+                <div class="burger-5">
+                  <img src="img/burger.png" alt="">
+                </div>
               </div>
               <div class="item-4-2">
                 <div class="form">
@@ -358,6 +597,9 @@
                   ><img src="img/quora.png" alt=""
                 /></a>
               </div>
+              <div class="item-4-5">
+                &copy; Ankitanshu Swaroop
+              </div>
             </div>
           </div>
         </div>
@@ -368,19 +610,19 @@
   <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
   <script>
     new Pageable("#container", {
-          childSelector: "[data-anchor]", // CSS3 selector string for the pages
-        anchors: ["page-1", "page-2", "page-3", "page-4"], // define the page anchors
-          pips: false, // display the pips
-          animation: 600, // the duration in ms of the scroll animation
-          throttle: 100, // the interval in ms that the resize callback is fired
-          orientation: "vertical", // or horizontal
-          swipeThreshold: 80, // swipe / mouse drag distance (px) before firing the page change event
-          events: {
-            wheel: true, // enable / disable mousewheel scrolling
-            mouse: true, // enable / disable mouse drag scrolling
-            touch: true, // enable / disable touch / swipe scrolling
-            keydown: true, // enable / disable keyboard navigation
-          },
-        });
+      childSelector: "[data-anchor]", // CSS3 selector string for the pages
+      anchors: ["page-1", "page-2", "page-3", "page-4", "page-5"], // define the page anchors
+      pips: true, // display the pips
+      animation: 600, // the duration in ms of the scroll animation
+      throttle: 100, // the interval in ms that the resize callback is fired
+      orientation: "vertical", // or horizontal
+      swipeThreshold: 80, // swipe / mouse drag distance (px) before firing the page change event
+      events: {
+        wheel: true, // enable / disable mousewheel scrolling
+        mouse: false, // enable / disable mouse drag scrolling
+        touch: true, // enable / disable touch / swipe scrolling
+        keydown: true, // enable / disable keyboard navigation
+      },
+    });
   </script>
 </html>
