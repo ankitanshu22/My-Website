@@ -852,7 +852,6 @@ a {
 
   .introduction,
   .skills,
-  .about,
   .contact,
   .works {
     height: 100vh;
@@ -861,6 +860,10 @@ a {
   background-position-x: 2vw;
   background-size: 100% auto; */
   }
+
+.about{
+  height: 75vh;
+}
 
   .introduction {
     background-image: none;
@@ -1102,23 +1105,23 @@ a {
 
   .item-3-2 {
     grid-column: 1/8;
-    grid-row: 3/6;
+    grid-row: 2/6;
   }
 
   .item-3-3 {
     grid-column: 1/8;
-    grid-row: 6/8;
+    grid-row: 4/8;
   }
 
   .item-3-4 {
     grid-column: 8/10;
-    grid-row: 3/6;
+    grid-row: 2/6;
     text-align: right;
   }
 
   .item-3-5 {
     grid-column: 8/10;
-    grid-row: 6/8;
+    grid-row: 4/8;
     text-align: right;
   }
 
@@ -1162,7 +1165,7 @@ a {
   .grid-container-5 {
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 4vw;
   }
@@ -1170,7 +1173,7 @@ a {
   .item-5-1 {
     grid-column: 1/4;
     grid-row: 1/2;
-    margin: 7vh 0 2.5vh 0;
+    margin: 8vh 0 0 0;
     display: flex;
     justify-content: space-between;
   }
@@ -1186,8 +1189,8 @@ a {
   }
 
   .item-5-4 {
-    grid-column: 3/4;
-    grid-row: 2/5;
+    grid-column: 1/2;
+    grid-row: 4/6;
   }
 
   .vec {
@@ -1346,7 +1349,7 @@ a {
     font-weight: bold;
     color: #ffc25c;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 5px;
   }
 
@@ -1367,6 +1370,10 @@ a {
     display: flex;
     justify-content: space-between;
     margin: 0 auto 20px auto;
+  }
+
+  .item-2-3{
+    margin-top: 10px !important;
   }
 
   .design-tools img,
@@ -1442,7 +1449,6 @@ a {
 
   .design-heading,
   .develop-heading {
-    
     font-size: 1.8vw;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -1468,21 +1474,21 @@ a {
   .vertical-bar-1 {
     float: left;
     background-color: #ffc25c;
-    height: 22.3vh;
-    width: 5px;
+    height: 120px;
+    width: 3px;
     margin-right: 2vw;
   }
 
   .vertical-bar-2 {
     float: left;
     background-color: #ffc25c;
-    height: 12.5vh;
-    width: 5px;
+    height: 70px;
+    width: 3px;
     margin-right: 2vw;
   }
 
   .about-heading {
-    font-size: 2vw;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1492,7 +1498,7 @@ a {
   }
 
   .organization {
-    font-size: 1.4vw;
+    font-size: 14px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1504,7 +1510,7 @@ a {
   .profile,
   .duration,
   .description {
-    font-size: 1vw;
+    font-size: 10px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -1514,25 +1520,34 @@ a {
   .duration {
     padding-bottom: 1vh;
     padding-top: 0.1vh;
-    font-size: 1.05vw;
+    font-size: 10px;
   }
 
   .description {
-    font-size: 1.05vw;
+    font-size: 10px;
+  }
+
+  .item-3-3, .item-3-5{
+    margin-top: 140px;
+  }
+
+   .item-3-2, .item-3-4{
+    margin-top: 80px;
   }
 
   .heading-3 {
-    font-size: 2vw;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     color: #ffc25c;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
   }
 
   .item-3-4 img,
   .item-3-5 img {
-    width: 10vw;
+    width: 50px;
   }
 
   .item-3-4 img:hover,
@@ -1541,13 +1556,14 @@ a {
   }
 
   .heading-5 {
-    font-size: 2vw;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     color: #ffc25c;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
   }
+
 
   .heading-4 {
     font-size: 2vw;

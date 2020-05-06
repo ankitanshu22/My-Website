@@ -14,7 +14,7 @@
 }
 
 .card .card-title {
-  font-size: 1.4vw;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -154,22 +154,23 @@
 }
 
 .card .card-content {
-  padding: 2vw;
+  padding: 20px;
   border-radius: 0 0 2px 2px;
 }
 
 .card .card-content p {
   margin: 0;
+  font-size: 10px;
 }
 
 .card .card-content .card-title {
   display: block;
-  line-height: 2.2vw;
+  line-height: 20px;
   margin-bottom: 0.6vw;
 }
 
 .card .card-content .card-title i {
-  line-height: 2.2vw;
+  line-height: 20px;
 }
 
 .card .card-action {
@@ -262,7 +263,7 @@
 }
 
 .inline {
-  padding: 0.4vw 0.6vw;
+  padding: 0.6vw 0.6vw;
 }
 
 .inline img {
@@ -275,6 +276,7 @@
 }
 
 .tech-used {
-  margin-top: 5vh;
+  margin-top: 2vh;
   color: #fff;
+  font-size: 12px;
 }
