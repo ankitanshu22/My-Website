@@ -226,7 +226,7 @@ nav {
   grid-row: 1/2;
   display: flex;
   justify-content: space-between;
-  margin: 7vh 0;
+  margin: 7vh 0 1vh 0;
 }
 
 .item-4-2 {
@@ -245,7 +245,7 @@ nav {
 }
 
 .item-4-5 {
-  grid-column: 8/10;
+  grid-column: 7/10;
   grid-row: 5/6;
   margin: auto 0 auto auto;
 }
@@ -749,9 +749,16 @@ button:focus {
 }
 
 .item-4-5 {
-  color: #ffc25c;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+  color: #b9b9b9;
   font-size: 1.2vw;
-  text-align: right;
+  text-align: center;
+}
+
+.item-4-5-mobile {
+  display: none;
 }
 
 ::placeholder {
@@ -861,9 +868,9 @@ a {
   background-size: 100% auto; */
   }
 
-.about{
-  height: 75vh;
-}
+  .about {
+    height: 75vh;
+  }
 
   .introduction {
     background-image: none;
@@ -918,8 +925,12 @@ a {
 
   /* Links inside the navbar */
   .navbar a {
-    padding: 14px 16px;
+    
     text-decoration: none;
+  }
+
+  .navbar span{
+    padding: 14px 16px;
   }
 
   /* The dropdown container */
@@ -941,7 +952,7 @@ a {
   }
 
   /* Add a red background color to navbar links on hover */
-  .navbar a:hover,
+  .navbar span:hover,
   .dropdown:hover .dropbtn {
     background-color: #4a4a4a;
   }
@@ -958,7 +969,7 @@ a {
   }
 
   /* Links inside the dropdown */
-  .dropdown-content a {
+  .dropdown-content span {
     float: none;
     color: #ffffff;
     padding: 18px 16px;
@@ -968,7 +979,7 @@ a {
   }
 
   /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
+  .dropdown-content span:hover {
     background-color: #5a5a5a;
   }
 
@@ -1138,28 +1149,28 @@ a {
     grid-row: 1/2;
     display: flex;
     justify-content: space-between;
-    margin: 7vh 0;
+    margin: 70px 0 20px 0;
   }
 
   .item-4-2 {
-    grid-column: 1/7;
+    grid-column: 1/8;
     grid-row: 2/5;
   }
 
   .item-4-3 {
-    grid-column: 1/4;
+    grid-column: 1/5;
     grid-row: 5/6;
   }
 
   .item-4-4 {
-    grid-column: 4/7;
+    grid-column: 4/10;
     grid-row: 5/6;
   }
 
   .item-4-5 {
     grid-column: 8/10;
     grid-row: 5/6;
-    margin: auto 0 auto auto;
+    margin: auto auto auto auto;
   }
 
   .grid-container-5 {
@@ -1286,9 +1297,9 @@ a {
   .ext-links li {
     padding-bottom: 1vh;
   }
-.item-2-3{
-  margin-top: 20px !important;
-}
+  .item-2-3 {
+    margin-top: 20px !important;
+  }
   .ext-links img {
     width: 25px;
   }
@@ -1349,7 +1360,7 @@ a {
     font-weight: bold;
     color: #ffc25c;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 5px;
   }
 
@@ -1372,7 +1383,7 @@ a {
     margin: 0 auto 20px auto;
   }
 
-  .item-2-3{
+  .item-2-3 {
     margin-top: 10px !important;
   }
 
@@ -1527,11 +1538,13 @@ a {
     font-size: 10px;
   }
 
-  .item-3-3, .item-3-5{
+  .item-3-3,
+  .item-3-5 {
     margin-top: 140px;
   }
 
-   .item-3-2, .item-3-4{
+  .item-3-2,
+  .item-3-4 {
     margin-top: 80px;
   }
 
@@ -1564,7 +1577,6 @@ a {
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
   }
 
-
   .heading-4 {
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
@@ -1574,12 +1586,12 @@ a {
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
   }
 
-  .bar1-1-lf{
+  .bar1-1-lf {
     margin-left: 0;
   }
 
   .form-label {
-    font-size: 1.2vw;
+    font-size: 11px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -1588,25 +1600,25 @@ a {
   }
 
   #name {
-    height: 6vh;
-    width: 31vw;
+    height: 30px;
+    width: 200px;
     border-radius: 20px;
-    margin-bottom: 2vh;
-    margin-top: 1.5vh;
-    padding-left: 2.8vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 15px;
   }
 
   #message {
-    height: 14vh;
-    width: 31vw;
+    height: 60px;
+    width: 200px;
     border-radius: 20px;
-    margin-bottom: 1.5vh;
-    margin-top: 1.5vh;
-    padding-left: 2.8vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 15px;
   }
 
   input {
-    font-size: 1vw;
+    font-size: 10px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -1626,12 +1638,12 @@ a {
   .submit-button {
     background-color: #3b3b3b;
     border-radius: 20px;
-    margin-left: 21vw;
+    margin-left: 0px;
     cursor: pointer;
     color: #ffffff;
-    font-size: 1.1vw;
-    height: 6vh;
-    width: 12vw;
+    font-size: 10px;
+    height: 30px;
+    width: 80px;
     text-decoration: none;
   }
   .submit-button:hover {
@@ -1648,6 +1660,7 @@ a {
   .call,
   .mail {
     display: flex;
+    align-items: center;
   }
 
   .item-4-3 {
@@ -1655,16 +1668,17 @@ a {
   }
 
   .item-4-4 {
-    margin: auto 0 auto 3vw;
+    margin: auto;
+    margin-right: 0;
     display: grid;
-    grid-template-columns: 2vw 2vw 2vw;
-    grid-template-rows: 2vw 2vw;
-    grid-gap: 0.2vw;
+    grid-template-columns: 25px 25px 25px;
+    grid-template-rows: 25px 25px;
+    grid-gap: 5px;
     align-items: center;
   }
 
   .item-4-4 img {
-    width: 2vw;
+    width: 25px;
   }
 
   .item-4-4 img:hover {
@@ -1672,17 +1686,23 @@ a {
   }
 
   .contact-info {
-    font-size: 1.2vw;
+    font-size: 10px;
     font-family: "Open Sans", sans-serif;
     color: #ffc25c;
-    margin-left: 1vw;
+    margin-left: 5px;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
   }
 
   .item-4-5 {
+    display: none;
+  }
+
+  .item-4-5-mobile {
+    background-color: #3a3a3a;
+    padding: 10px;
     color: #ffc25c;
-    font-size: 1.2vw;
-    text-align: right;
+    font-size: 10px;
+    text-align: center;
   }
 
   ::placeholder {
