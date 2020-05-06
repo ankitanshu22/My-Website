@@ -1140,6 +1140,7 @@ a {
   }
 
   .pg-pips {
+    display: none;
     position: relative;
     top: 140px !important;
   }
