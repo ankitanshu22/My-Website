@@ -849,11 +849,6 @@ a {
   background-size: 100% auto; */
   }
 
-  html,
-  body {
-    overflow: hidden;
-  }
-
   .introduction {
     background-image: none;
   }
