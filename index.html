@@ -9,9 +9,9 @@
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
       rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap" rel="stylesheet">
-    <!-- <link
+    <link
       rel="stylesheet"
-      href="https://unpkg.com/pageable@latest/dist/pageable.min.css"> -->
+      href="css/pageable.min.css">
     <link rel="stylesheet" href="css/card.css" />
 
     <link rel="icon" href="img/alogo.png" />
@@ -19,15 +19,36 @@
   <body>
     <div class="pg-wrapper">
       <div id="container" class="pg-container">
+        
         <div
           class="introduction pg-page pg-active"
           data-anchor="page-1"
           id="introduction page-1"
         >
           <div class="introduction-container">
+            <!-- for mobile devices -->
+            <div class="navbar">
+              <a href="#"><img class="alogo" src="img/alogo.png" alt=""></a>
+            
+              <div class="dropdown">
+                <button class="dropbtn"><img class="burger" src="img/burger.png" alt="">
+            
+                </button>
+                <div class="dropdown-content">
+                  <a href="#page-1">Home</a>
+                  <a href="#page-2">Skills</a>
+                  <a href="#page-3">About Me</a>
+                  <a href="#page-4">My Works</a>
+                  <a href="#page-5">Contact</a>
+                  <a href="docs/Ankitanshu's Resume (4).pdf" download>Resume</a>
+                </div>
+              </div>
+            </div>
             <div class="grid-container-1">
               <div class="item-1">
+                
                 <nav>
+                  
                   <div class="logo">
                     <a href="#"
                       ><img class="alogo" src="img/alogo.png" alt=""
@@ -50,10 +71,16 @@
                       <a href="#page-5">Contact</a>
                     </li>
                   </ul>
-                  <div class="burger">
-                    <img src="img/burger.png" alt="">
-                  </div>
+                  
+
+                  
+
+                  
+
                 </nav>
+
+
+                
               </div>
               <div class="item-2">
                 <img class="vec" src="img/vec1.svg" alt="" />
@@ -76,8 +103,7 @@
                   Ankitanshu Swaroop
                 </p>
                 <div class="bar1-1"></div>
-                <p class="text1-3" id="text-profile">
-                  A Web Designer.
+                <p class="text1-3" id="text-profile">Web Developer | UI/UX Designer
                 </p>
               </div>
               <div class="item-4">
@@ -147,9 +173,7 @@
                     >
                   </li>
                 </ul>
-                <div class="burger-2">
-                  <img src="img/burger.png" alt="">
-                </div>
+                
               </div>
               <div class="item-2-2">
                 <ul class="design-tools">
@@ -197,11 +221,13 @@
               </div>
               <div class="item-2-3">
                 <img class="design-v" src="img/design.png" alt="" />
+                <p class="design-heading mobile-h" >Design what you want.</p>
               </div>
               <div class="item-divider">
                 <img src="img/divider.png" alt="" />
               </div>
               <div class="item-2-4">
+                <p class="develop-heading mobile-h">Develop what you need.</p>
                 <img class="develop-v" src="img/develop.png" alt="" />
               </div>
               <div class="item-2-5">
@@ -250,14 +276,14 @@
                 </ul>
               </div>
               <div class="item-2-6">
-                <p class="design-heading">Design what you want.</p>
+                <p class="design-heading desktop-h">Design what you want.</p>
                 <p class="design-text">
                   I can design visually-appealing websites to run on various
                   platforms and optimize the user experience.
                 </p>
               </div>
               <div class="item-2-7">
-                <p class="develop-heading">Develop what you need.</p>
+                <p class="develop-heading desktop-h">Develop what you need.</p>
                 <p class="develop-text">
                   I can create your website to run across devices using the
                   latest technologies available.
@@ -294,9 +320,7 @@
                     >
                   </li>
                 </ul>
-                <div class="burger-3">
-                  <img src="img/burger.png" alt="">
-                </div>
+                
               </div>
               <div class="item-3-2">
                 <p class="about-heading">Experience</p>
@@ -364,9 +388,7 @@
                     >
                   </li>
                 </ul>
-                <div class="burger-4">
-                  <img src="img/burger.png" alt="">
-                </div>
+                
               </div>
               <div class="item-5-2">
                 <div class="card">
@@ -528,9 +550,7 @@
                     >
                   </li>
                 </ul>
-                <div class="burger-5">
-                  <img src="img/burger.png" alt="">
-                </div>
+               
               </div>
               <div class="item-4-2">
                 <div class="form">
@@ -607,8 +627,13 @@
     </div>
   </body>
   <script src="js/index.js"></script>
-  <!-- <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script> -->
+  <script src="js/pageable.min.js"></script>
   <script>
+
+
+  if (document.documentElement.clientWidth > 650) {
+  
+  
     new Pageable("#container", {
       childSelector: "[data-anchor]", // CSS3 selector string for the pages
       anchors: ["page-1", "page-2", "page-3", "page-4", "page-5"], // define the page anchors
@@ -624,5 +649,6 @@
         keydown: true, // enable / disable keyboard navigation
       },
     });
+  }
   </script>
 </html>
