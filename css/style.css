@@ -1566,12 +1566,16 @@ a {
 
 
   .heading-4 {
-    font-size: 2vw;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     color: #ffc25c;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .bar1-1-lf{
+    margin-left: 0;
   }
 
   .form-label {
