@@ -870,7 +870,7 @@ a {
   .about-container,
   .contact-container,
   .works-container {
-    width: 85%;
+    width: 100%;
   }
 
   nav {

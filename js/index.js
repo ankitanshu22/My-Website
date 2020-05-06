@@ -46,26 +46,26 @@ typeText();
 
 const navSlide = () => {
   const burger = document.querySelector(".burger");
- const burger2 = document.querySelector(".burger-2");
- const burger3 = document.querySelector(".burger-3");
- const burger4 = document.querySelector(".burger-4");
- const burger5 = document.querySelector(".burger-5");
+  const burger2 = document.querySelector(".burger-2");
+  const burger3 = document.querySelector(".burger-3");
+  const burger4 = document.querySelector(".burger-4");
+  const burger5 = document.querySelector(".burger-5");
   const nav = document.querySelector(".nav-links");
-  burger.addEventListener("click", () => {
+  burger.addEventListener("touchstart click", () => {
     nav.classList.toggle("nav-active");
   });
- burger2.addEventListener("click", () => {
-  nav.classList.toggle("nav-active");
- });
- burger3.addEventListener("click", () => {
-  nav.classList.toggle("nav-active");
- });
- burger4.addEventListener("click", () => {
-  nav.classList.toggle("nav-active");
- });
- burger5.addEventListener("click", () => {
-  nav.classList.toggle("nav-active");
- });
+  burger2.addEventListener("touchstart click", () => {
+    nav.classList.toggle("nav-active");
+  });
+  burger3.addEventListener("touchstart click", () => {
+    nav.classList.toggle("nav-active");
+  });
+  burger4.addEventListener("touchstart click", () => {
+    nav.classList.toggle("nav-active");
+  });
+  burger5.addEventListener("touchstart click", () => {
+    nav.classList.toggle("nav-active");
+  });
 };
 
 navSlide();
