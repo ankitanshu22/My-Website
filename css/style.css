@@ -1239,7 +1239,7 @@ a {
   }
 
   .item-2 {
-    margin-top: 25%;
+    margin-top: 11vh;
     top: 0;
     left: 0;
   }
@@ -1274,7 +1274,7 @@ a {
   } */
 
   .item-3 {
-    padding-top: 8%;
+    padding-top: 3vh;
   }
 
   .text1-1 {
@@ -1321,11 +1321,11 @@ a {
     flex-direction: row;
     padding-left: 27.5% !important;
     width: 45%;
-    padding-top: 15%;
+    padding-top: 7vh;
   }
 
   .ext-links li {
-    padding-bottom: 1vh;
+    padding-bottom: 0vh;
   }
   .item-2-3 {
     margin-top: 20px !important;
