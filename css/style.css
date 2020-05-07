@@ -281,6 +281,10 @@ nav {
   grid-row: 2/5;
 }
 
+.item-5-5 {
+  display: none;
+}
+
 .pg-pips ul li a {
   background-color: #ffc25c !important;
 }
@@ -890,7 +894,7 @@ a {
 
   .about,
   .contact {
-    height: 92vh;
+    height: 100vh;
   }
 
   .introduction {
@@ -1224,6 +1228,12 @@ a {
     grid-row: 4/6;
   }
 
+  .item-5-5 {
+    display: block;
+    grid-column: 2/3;
+    grid-row: 4/6;
+  }
+
   .vec {
     width: 60%;
   }
@@ -1505,7 +1515,7 @@ a {
   .vertical-bar-1 {
     float: left;
     background-color: #ffc25c;
-    height: 150px;
+    height: 165px;
     width: 3px;
     margin-right: 2vw;
   }
@@ -1550,7 +1560,7 @@ a {
   }
   .duration {
     padding-bottom: 1vh;
-    padding-top: 0.5vh;
+    padding-top: 1vh;
     font-size: 10px;
   }
 
@@ -1620,7 +1630,7 @@ a {
   }
 
   #name {
-    height: 30px;
+    height: 40px;
     width: 200px;
     border-radius: 20px;
     margin-bottom: 15px;
@@ -1629,7 +1639,7 @@ a {
   }
 
   #email {
-    height: 30px;
+    height: 40px;
     width: 200px;
     border-radius: 20px;
     margin-bottom: 15px;
@@ -1638,7 +1648,7 @@ a {
   }
 
   #message {
-    height: 60px;
+    height: 80px;
     width: 200px;
     border-radius: 20px;
     margin-bottom: 15px;
@@ -1716,7 +1726,7 @@ a {
 
   .item-4-3,
   .item-4-4 {
-    margin-top: 400px;
+    margin-top: 450px;
   }
 
   .contact-info {
