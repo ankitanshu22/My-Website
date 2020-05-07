@@ -429,10 +429,6 @@ nav {
   right: 0px;
 }
 
-.item-5 {
-  z-index: 1000;
-}
-
 .text2-2,
 .text2-2-1 {
   font-size: 1.1vw;
@@ -1225,13 +1221,13 @@ a {
 
   .item-5-4 {
     grid-column: 1/2;
-    grid-row: 4/6;
+    grid-row: 3/6;
   }
 
   .item-5-5 {
     display: block;
     grid-column: 2/3;
-    grid-row: 4/6;
+    grid-row: 3/6;
   }
 
   .vec {
@@ -1390,8 +1386,8 @@ a {
     font-weight: bold;
     color: #ffc25c;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
-    margin-top: 60px;
-    margin-bottom: 5px;
+    margin-top: 6.5vh;
+    margin-bottom: 0vh;
   }
 
   .design-tools,
@@ -1410,11 +1406,7 @@ a {
   .item-2-4 {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 20px auto;
-  }
-
-  .item-2-3 {
-    margin-top: 30px !important;
+    margin: 0 auto 3vh auto;
   }
 
   .design-tools img,
@@ -1523,7 +1515,7 @@ a {
   .vertical-bar-2 {
     float: left;
     background-color: #ffc25c;
-    height: 80px;
+    height: 87px;
     width: 3px;
     margin-right: 2vw;
   }
@@ -1605,6 +1597,11 @@ a {
     font-weight: bold;
     color: #ffc25c;
     text-shadow: 15px 4px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .item-5-4,
+  .item-5-5 {
+    margin-top: 17vh;
   }
 
   .heading-4 {
@@ -1726,7 +1723,7 @@ a {
 
   .item-4-3,
   .item-4-4 {
-    margin-top: 480px;
+    margin-top: 48vh;
   }
 
   .contact-info {

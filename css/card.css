@@ -538,6 +538,10 @@
     margin-top: 10px;
   }
 
+  .code-btn {
+    display: none;
+  }
+
   .inline {
     display: flex;
     justify-content: center;
