@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #1a1a1a;
+  background-color: #131313;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
@@ -29,12 +29,12 @@ p {
 }
 
 .introduction {
-  background-image: url(../img/bg1.png);
+  background-image: url(../img/bg1-2.png);
 }
 
 .skills,
 .works {
-  background-color: #272727;
+  background-color: #1d1d1d;
   box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
   background-image: url(../img/bg2.png);
 }
@@ -415,6 +415,19 @@ nav {
   background: #ffc25c;
   box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
   margin: auto 0 2vw auto;
+}
+
+.intro-back{
+  display: none;
+  position: fixed;
+width: 55%;
+  bottom: 0px;
+  right: 0px;
+  
+}
+
+.item-5{
+  z-index: 1000;
 }
 
 .text2-2,
@@ -929,7 +942,7 @@ a {
     text-decoration: none;
   }
 
-  .navbar span{
+  .navbar a{
     padding: 14px 16px;
   }
 
@@ -1697,7 +1710,7 @@ a {
     display: none;
   }
 
-  .item-4-5-mobile {
+  .item-4-5-mobile {display: block;
     background-color: #3a3a3a;
     padding: 10px;
     color: #ffc25c;

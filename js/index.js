@@ -1,6 +1,6 @@
 if (document.documentElement.clientWidth > 650) {
   const mHTML = document.getElementById("text-profile"),
-    text = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    text = ["Web Developer", "UI/UX Designer"];
   let currentText = 0;
   function typeText() {
     if (!text[currentText]) {
@@ -15,7 +15,7 @@ if (document.documentElement.clientWidth > 650) {
         currentText++;
         setTimeout(() => {
           deleteText(part);
-        }, 100);
+        }, 700);
         clearInterval(int1);
       } else {
         part += currentStr[currentLetter++];
@@ -36,7 +36,7 @@ if (document.documentElement.clientWidth > 650) {
         str = str.join("");
         mHTML.innerHTML = str;
       }
-    }, 100);
+    }, 25);
   }
   typeText();
 }
