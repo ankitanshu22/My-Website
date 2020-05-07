@@ -417,16 +417,15 @@ nav {
   margin: auto 0 2vw auto;
 }
 
-.intro-back{
+.intro-back {
   display: none;
   position: fixed;
-width: 55%;
+  width: 55%;
   bottom: 0px;
   right: 0px;
-  
 }
 
-.item-5{
+.item-5 {
   z-index: 1000;
 }
 
@@ -678,6 +677,15 @@ width: 55%;
   padding-left: 2.8vw;
 }
 
+#email {
+  height: 6vh;
+  width: 31vw;
+  border-radius: 20px;
+  margin-bottom: 2vh;
+  margin-top: 1.5vh;
+  padding-left: 2.8vw;
+}
+
 #message {
   height: 14vh;
   width: 31vw;
@@ -872,7 +880,6 @@ a {
 
   .introduction,
   .skills,
-  .contact,
   .works {
     height: 100vh;
     /* background-repeat: no-repeat;
@@ -881,8 +888,9 @@ a {
   background-size: 100% auto; */
   }
 
-  .about {
-    height: 75vh;
+  .about,
+  .contact {
+    height: 92vh;
   }
 
   .introduction {
@@ -938,11 +946,10 @@ a {
 
   /* Links inside the navbar */
   .navbar a {
-    
     text-decoration: none;
   }
 
-  .navbar a{
+  .navbar a {
     padding: 14px 16px;
   }
 
@@ -1153,7 +1160,7 @@ a {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-gap: 2.5vw;
   }
 
@@ -1172,12 +1179,12 @@ a {
 
   .item-4-3 {
     grid-column: 1/5;
-    grid-row: 5/6;
+    grid-row: 4/5;
   }
 
   .item-4-4 {
     grid-column: 4/10;
-    grid-row: 5/6;
+    grid-row: 4/5;
   }
 
   .item-4-5 {
@@ -1498,7 +1505,7 @@ a {
   .vertical-bar-1 {
     float: left;
     background-color: #ffc25c;
-    height: 120px;
+    height: 150px;
     width: 3px;
     margin-right: 2vw;
   }
@@ -1506,7 +1513,7 @@ a {
   .vertical-bar-2 {
     float: left;
     background-color: #ffc25c;
-    height: 70px;
+    height: 80px;
     width: 3px;
     margin-right: 2vw;
   }
@@ -1534,7 +1541,7 @@ a {
   .profile,
   .duration,
   .description {
-    font-size: 10px;
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -1543,17 +1550,17 @@ a {
   }
   .duration {
     padding-bottom: 1vh;
-    padding-top: 0.1vh;
+    padding-top: 0.5vh;
     font-size: 10px;
   }
 
   .description {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .item-3-3,
   .item-3-5 {
-    margin-top: 140px;
+    margin-top: 170px;
   }
 
   .item-3-2,
@@ -1604,7 +1611,7 @@ a {
   }
 
   .form-label {
-    font-size: 11px;
+    font-size: 14px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -1613,6 +1620,15 @@ a {
   }
 
   #name {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+
+  #email {
     height: 30px;
     width: 200px;
     border-radius: 20px;
@@ -1631,7 +1647,7 @@ a {
   }
 
   input {
-    font-size: 10px;
+    font-size: 14px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -1654,9 +1670,9 @@ a {
     margin-left: 0px;
     cursor: pointer;
     color: #ffffff;
-    font-size: 10px;
-    height: 30px;
-    width: 80px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
     text-decoration: none;
   }
   .submit-button:hover {
@@ -1698,8 +1714,13 @@ a {
     filter: drop-shadow(0px 0px 1px #666666) brightness(250%);
   }
 
+  .item-4-3,
+  .item-4-4 {
+    margin-top: 400px;
+  }
+
   .contact-info {
-    font-size: 10px;
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
     color: #ffc25c;
     margin-left: 5px;
@@ -1710,7 +1731,8 @@ a {
     display: none;
   }
 
-  .item-4-5-mobile {display: block;
+  .item-4-5-mobile {
+    display: block;
     background-color: #3a3a3a;
     padding: 10px;
     color: #ffc25c;

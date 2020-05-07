@@ -446,7 +446,7 @@
 
 .card .card-content p {
   margin: 0;
-  font-size: 5px;
+  font-size: 8px;
 }
 
 .card .card-content .card-title {
@@ -529,8 +529,8 @@
 
 .inline-wrap {
   margin: auto;
-  display: flex;
-  width: 97%;
+  flex-direction: column;
+  width: 60%;
   justify-content: space-around;
 }
 
@@ -538,7 +538,7 @@
   background-color: #3a3a3a;
   border-radius: 10px;
   border-width: 0;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .inline {
@@ -548,7 +548,7 @@
 }
 
 .inline {
-  padding: 0.6vw 0.6vw;
+  padding: 5px 5px;
 }
 
 .inline img {
@@ -564,6 +564,6 @@
 .tech-used {
   margin-top: 24px;
   color: #fff;
-  font-size:8px;
+  font-size:10px;
 }
 }
