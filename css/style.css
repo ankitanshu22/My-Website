@@ -884,7 +884,8 @@ a {
 
   .introduction,
   .skills,
-  .works {
+  .works,
+  .contact {
     height: 100vh;
     /* background-repeat: no-repeat;
   background-position-y: -10vh;
@@ -892,9 +893,8 @@ a {
   background-size: 100% auto; */
   }
 
-  .about,
-  .contact {
-    height: 100vh;
+  .about {
+    height: 85vh;
   }
 
   .introduction {
@@ -903,7 +903,7 @@ a {
 
   .skills,
   .works {
-    background-color: #272727;
+    background-color: #242424;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
     background-image: none;
   }
@@ -1746,7 +1746,7 @@ a {
     background-color: #3a3a3a;
     padding: 10px;
     color: #ffc25c;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
   }
 
