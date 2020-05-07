@@ -1,4 +1,5 @@
-This is my personal website created using: 
+This is my Personal Website created using:
+
 - HTML
 - CSS
 - JavaScript.
@@ -7,7 +8,7 @@ This is my personal website created using:
 
 **Plugins I used in this website:**
 
-- [Pageable](https://github.com/Mobius1/Pageable)
-- [Typewriter](https://github.com/tameemsafi/typewriterjs)
+- [Pageable.js](https://github.com/Mobius1/Pageable)
+- [Typewriter.js](https://github.com/tameemsafi/typewriterjs)
 
     
