@@ -529,6 +529,7 @@
     flex-direction: column;
     width: 80%;
     justify-content: space-around;
+    margin-bottom: 2vh !important;
   }
 
   .card button {
@@ -536,10 +537,6 @@
     border-radius: 10px;
     border-width: 0;
     margin-top: 10px;
-  }
-
-  .code-btn {
-    display: none;
   }
 
   .inline {
@@ -564,6 +561,7 @@
   }
 
   .tech-used {
+    display: none;
     margin-top: 20px;
     color: #fff;
     font-size: 10px;

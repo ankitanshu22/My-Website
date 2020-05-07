@@ -1628,7 +1628,7 @@ a {
 
   #name {
     height: 40px;
-    width: 300px;
+    width: 280px;
     border-radius: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1637,7 +1637,7 @@ a {
 
   #email {
     height: 40px;
-    width: 300px;
+    width: 280px;
     border-radius: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1646,7 +1646,7 @@ a {
 
   #message {
     height: 80px;
-    width: 300px;
+    width: 280px;
     border-radius: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
