@@ -4,7 +4,7 @@ This is my Personal Website created using:
 - CSS
 - JavaScript.
 
-**Link to my website:  https://ankitanshuswaroop.com/**
+**Link to my website:  ankitanshuswaroop.com**
 
 **Plugins I used in this website:**
 
