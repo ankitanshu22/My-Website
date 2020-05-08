@@ -62,3 +62,15 @@ const navToggle = () => {
 };
 
 navToggle();
+
+const alertUnderDev = () => {
+  var links = document.querySelectorAll(".card-link");
+
+  for (const link of links) {
+    link.addEventListener("click", () => {
+      alert("The Product is Under Development!");
+    });
+  }
+};
+
+alertUnderDev();
