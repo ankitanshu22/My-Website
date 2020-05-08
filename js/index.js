@@ -52,7 +52,6 @@ const navToggle = () => {
   var img1 = "https://ankitanshuswaroop.com/img/burger.png",
     img2 = "https://ankitanshuswaroop.com/img/collapse.png";
   burger.addEventListener("click", () => {
-    alert(burger.src);
     nav.classList.toggle("dropdown-content-active");
     if (burger.src === img1) {
       burger.src = img2;
