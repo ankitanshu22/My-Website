@@ -46,28 +46,20 @@ if (document.documentElement.clientWidth > 650) {
 //  $(this).addClass('active');
 // });
 
-// const navSlide = () => {
-//   const burger = document.querySelector(".burger");
-//   const burger2 = document.querySelector(".burger-2");
-//   const burger3 = document.querySelector(".burger-3");
-//   const burger4 = document.querySelector(".burger-4");
-//   const burger5 = document.querySelector(".burger-5");
-//   const nav = document.querySelector(".nav-links");
-//   burger.addEventListener("click", () => {
-//     nav.classList.toggle("nav-active");
-//   });
-//   burger2.addEventListener("click", () => {
-//     nav.classList.toggle("nav-active");
-//   });
-//   burger3.addEventListener("click", () => {
-//     nav.classList.toggle("nav-active");
-//   });
-//   burger4.addEventListener("click", () => {
-//     nav.classList.toggle("nav-active");
-//   });
-//   burger5.addEventListener("click", () => {
-//     nav.classList.toggle("nav-active");
-//   });
-// };
+const navToggle = () => {
+  var burger = document.getElementById("burger");
+  var nav = document.querySelector(".dropdown-content");
+  var img1 = "https://ankitanshuswaroop.com/img/burger.png",
+    img2 = "https://ankitanshuswaroop.com/img/collapse.png";
+  burger.addEventListener("click", () => {
+    alert(burger.src);
+    nav.classList.toggle("dropdown-content-active");
+    if (burger.src === img1) {
+      burger.src = img2;
+    } else {
+      burger.src = img1;
+    }
+  });
+};
 
-// navSlide();
+navToggle();

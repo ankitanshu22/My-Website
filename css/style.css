@@ -74,7 +74,7 @@ nav {
 }
 
 .burger {
-  width: 3vw;
+  width: 7vw;
   min-width: 25px;
   display: none;
 }
@@ -979,8 +979,12 @@ a {
 
   /* Dropdown content (hidden by default) */
   .dropdown-content {
-    margin-top: 50px;
     display: none;
+  }
+
+  .dropdown-content-active {
+    margin-top: 50px;
+    display: block;
     position: fixed;
     background-color: #4a4a4a;
     min-width: 160px;
@@ -1004,9 +1008,9 @@ a {
   }
 
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+  /* .dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
 
   .alogo {
     width: 3vw;
