@@ -22,7 +22,7 @@ This is my Personal Website created using:
 
 **Screenshots:**
     
- - Desktop Version<br/>
-![](https://github.com/ankitanshu22/Test/blob/master/Screenshot%20(29).png)
- - Mobile Version<br/>
+ - Desktop Version<br/><br/>
+![](https://github.com/ankitanshu22/Test/blob/master/Screenshot%20(29).png)<br/>
+ - Mobile Version<br/><br/>
 ![](https://github.com/ankitanshu22/Test/blob/master/Screenshot%20(30).png)
