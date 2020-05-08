@@ -2,7 +2,7 @@ This is my Personal Website created using:
 
 - HTML
 - CSS
-- JavaScript.
+- JavaScript
 
 **Link to my website:  https://ankitanshuswaroop.com/** 
 
