@@ -12,12 +12,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-
 @keyframes fadein {
-  from { opacity: 0}
-  to   { opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-body{
+body {
   animation: fadein 2.5s;
 }
 
@@ -946,7 +949,7 @@ a {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    background-color: #2a2a2a;
+    background-color: #242424;
     font-family: "Open Sans", sans-serif;
     position: fixed;
     width: 100vw;
@@ -1383,7 +1386,7 @@ a {
   }
 
   .item-2-1 {
-    margin: 0vh auto;
+    margin: 0.4vh auto 0vh auto;
     display: flex;
     justify-content: space-between;
   }
