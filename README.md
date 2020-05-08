@@ -16,4 +16,10 @@ This is my Personal Website created using:
 - [Pageable.js](https://github.com/Mobius1/Pageable)
 - [Typewriter.js](https://github.com/tameemsafi/typewriterjs)
 
+**Resources that helped me build this website:**
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
+- [DevEd](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
+- [Traversy Media](https://www.youtube.com/user/TechGuyWeb)
     
