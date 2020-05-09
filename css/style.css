@@ -1575,7 +1575,7 @@ a {
 
   #name {
     height: 40px;
-    width: 280px;
+    width: 100%;
     border-radius: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1584,7 +1584,7 @@ a {
 
   #email {
     height: 40px;
-    width: 280px;
+    width: 100%;
     border-radius: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1593,7 +1593,7 @@ a {
 
   #message {
     height: 80px;
-    width: 280px;
+    width: 100%;
     border-radius: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1782,5 +1782,48 @@ a {
     60% {
       transform: translateY(-1vw);
     }
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .item-3-3,
+  .item-3-5 {
+    grid-row: 3/8;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .vertical-bar-1 {
+    height: 11vh;
+  }
+
+  .ext-links {
+    padding-top: 4vh;
+  }
+
+  .item-2-2 {
+    display: none;
+  }
+
+  .item-2-4 {
+    margin-top: 4vh;
+  }
+
+  .call {
+    display: none;
+  }
+
+  .item-5 {
+    padding-top: 4vh !important;
+  }
+
+  .text2-2-1 {
+    display: none;
+  }
+
+  #message{
+    height: 40px;
   }
 }

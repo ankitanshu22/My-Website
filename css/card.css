@@ -150,3 +150,17 @@
     font-size: 10px;
   }
 }
+
+@media screen and (max-height: 650px) {
+  .inline a {
+    font-size: 8px;
+  }
+
+  .code-btn {
+    display: none;
+    margin-bottom: 1vh !important;
+  }
+
+  .description{
+font-size: 8px;  }
+}
