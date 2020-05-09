@@ -163,4 +163,8 @@
 
   .description{
 font-size: 8px;  }
+
+.inline-wrap{
+  margin-bottom: 1vh !important;
+}
 }
