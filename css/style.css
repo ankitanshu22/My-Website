@@ -896,10 +896,6 @@ a {
   .works,
   .contact {
     height: 100vh;
-    /* background-repeat: no-repeat;
-  background-position-y: -10vh;
-  background-position-x: 2vw;
-  background-size: 100% auto; */
   }
 
   .about {
@@ -945,7 +941,6 @@ a {
     display: none;
   }
 
-  /* Navbar container */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -957,7 +952,6 @@ a {
     z-index: 99;
   }
 
-  /* Links inside the navbar */
   .navbar a {
     text-decoration: none;
   }
@@ -966,13 +960,11 @@ a {
     padding: 14px 16px;
   }
 
-  /* The dropdown container */
   .dropdown {
     width: 160px;
     overflow: hidden;
   }
 
-  /* Dropdown button */
   .dropdown .dropbtn {
     float: right;
     border: none;
@@ -980,17 +972,15 @@ a {
 
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: inherit;
+    margin: 0;
   }
 
-  /* Add a red background color to navbar links on hover */
   .navbar span:hover,
   .dropdown:hover .dropbtn {
     background-color: #4a4a4a;
   }
 
-  /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
   }
@@ -1015,15 +1005,9 @@ a {
     text-align: left;
   }
 
-  /* Add a grey background color to dropdown links on hover */
   .dropdown-content span:hover {
     background-color: #5a5a5a;
   }
-
-  /* Show the dropdown menu on hover */
-  /* .dropdown:hover .dropdown-content {
-    display: block;
-  } */
 
   .alogo {
     width: 3vw;
@@ -1055,31 +1039,6 @@ a {
     transition: transform 0.5s ease-in;
     z-index: 1001;
   }
-
-  /* .nav-links {
-    padding-top: 20px;
-  }
-
-  .nav-links li {
-    padding: 20px 0px;
-    opacity: 1;
-  }
-  .nav-links a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 4vw;
-    color: #ffffff;
-  } */
-
-  /* .nav-active {
-    transform: translateX(0%);
-  } */
-  /* 
-  .active-link,
-  .nav-links a:hover {
-    filter: drop-shadow(0px 0px 0px #666666) brightness(100%);
-  } */
 
   .grid-container-1 {
     height: 100%;
@@ -1256,35 +1215,6 @@ a {
     top: 0;
     left: 0;
   }
-  /* 
-  .item-2 button {
-    background-color: #3a3a3a;
-    border-radius: 1vh;
-    border-width: 0;
-    width: 75%;
-    padding: 1.5vh;
-    margin-left: 5%;
-  }
-
-  .item-2 button:hover {
-    background-color: #686868;
-  }
-
-  .cv-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cv-button p {
-    margin-right: 1vw;
-  }
-
-  .item-2 button p {
-    color: #ffc25c;
-    font-size: 1.1vw;
-    font-family: "Open Sans", sans-serif;
-  } */
 
   .item-3 {
     padding-top: 3vh;
