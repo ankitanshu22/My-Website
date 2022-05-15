@@ -1,6 +1,6 @@
 if (document.documentElement.clientWidth > 650) {
   const e = document.getElementById("text-profile"),
-    t = ["Web Developer", "UI/UX Designer"];
+    t = ["Software Engineer", "UI/UX Designer"];
   let n = 0;
   function typeText() {
     t[n] || (n = 0);
