@@ -1,11 +1,10 @@
 if (document.documentElement.clientWidth > 650) {
   const e = document.getElementById("text-profile"),
-    t = ["Software Engineer", "UI/UX Designer"];
+    t = ["Software Engineer II", "FICO (Fair Isaac Corporation)"];
   let n = 0;
   function typeText() {
     t[n] || (n = 0);
     const o = t[n];
-    o.split();
     let r = "",
       l = 0,
       c = setInterval(() => {
@@ -14,31 +13,39 @@ if (document.documentElement.clientWidth > 650) {
           : (n++,
             setTimeout(() => {
               deleteText(r);
-            }, 700),
+            }, 1200),
             clearInterval(c));
-      }, 100);
+      }, 90);
   }
   function deleteText(t) {
     let n = setInterval(() => {
       0 === t.length
         ? (setTimeout(() => {
             typeText();
-          }, 100),
+          }, 150),
           clearInterval(n))
         : ((t = t.split("")).pop(), (t = t.join("")), (e.innerHTML = t));
     }, 25);
   }
   typeText();
 }
+
 const navToggle = () => {
-  var e = document.getElementById("burger"),
-    t = document.querySelector(".dropdown-content"),
-    n = "https://ankitanshuswaroop.com/img/burger.png";
-  e.addEventListener("click", () => {
-    t.classList.toggle("dropdown-content-active"),
-      e.src === n
-        ? (e.src = "https://ankitanshuswaroop.com/img/collapse.png")
-        : (e.src = n);
+  const burger = document.getElementById("burger");
+  const dropdown = document.querySelector(".dropdown-content");
+  if (!burger || !dropdown) return;
+
+  burger.addEventListener("click", () => {
+    dropdown.classList.toggle("dropdown-content-active");
+    const isBurger = burger.getAttribute("src") === "img/burger.png";
+    burger.setAttribute("src", isBurger ? "img/collapse.png" : "img/burger.png");
+  });
+
+  dropdown.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      dropdown.classList.remove("dropdown-content-active");
+      burger.setAttribute("src", "img/burger.png");
+    });
   });
 };
 navToggle();

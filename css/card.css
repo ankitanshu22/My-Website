@@ -73,6 +73,94 @@
   color: #fff;
   font-size: 1.1vw;
 }
+.exp-card {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: auto;
+  text-align: left;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 194, 92, 0.16);
+  border-top: 3px solid #ffc25c;
+  background: linear-gradient(160deg, rgba(32, 32, 32, 0.92), rgba(20, 20, 20, 0.96));
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.exp-card::-webkit-scrollbar {
+  width: 4px;
+}
+.exp-card::-webkit-scrollbar-thumb {
+  background: rgba(255, 194, 92, 0.3);
+  border-radius: 4px;
+}
+.exp-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 194, 92, 0.4);
+  box-shadow: 0 22px 44px rgba(0, 0, 0, 0.55);
+}
+.exp-card .card-content {
+  padding: min(1.5vw, 2.2vh);
+}
+.exp-card .card-title {
+  display: block;
+  color: #ffc25c;
+  font-size: clamp(16px, min(1.3vw, 2.35vh), 23px);
+  font-weight: 600;
+  margin-bottom: 1.25vh;
+  padding-bottom: 0.9vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.exp-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #e4e4e4;
+  font-size: clamp(13.5px, min(1.02vw, 1.88vh), 18px);
+  line-height: 1.56;
+}
+.exp-bullets li {
+  position: relative;
+  padding-left: 1vw;
+  margin-bottom: 1.15vh;
+}
+.exp-bullets li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffc25c;
+  opacity: 0.85;
+}
+.exp-bullets strong {
+  color: #ffc25c;
+  font-weight: 600;
+}
+.exp-card-featured .card-content {
+  min-height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vh;
+}
+.fico-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.fico-logo-img {
+  height: clamp(28px, 4.2vh, 46px);
+  width: auto;
+  background: rgba(255, 255, 255, 0.94);
+  padding: 1vh 1.6vw;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
 @media screen and (max-width: 600px) {
   .card .card-title {
     font-size: 14px;
@@ -126,6 +214,26 @@
     margin-top: 20px;
     color: #fff;
     font-size: 10px;
+  }
+  .exp-card .card-content {
+    padding: 16px;
+  }
+  .exp-card .card-title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .exp-bullets {
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .exp-bullets li {
+    padding-left: 14px;
+    margin-bottom: 8px;
+  }
+  .fico-logo-img {
+    height: 28px;
+    padding: 8px 14px;
   }
 }
 @media screen and (max-height: 650px) {
